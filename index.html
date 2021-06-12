@@ -35,6 +35,21 @@
     </script>
     </head>
     <body>
+
+    <style>
+#myProgress {
+  width: 100%;
+  background-color: #DBDBDB;
+  border-radius: 6px;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #1F3747;
+  border-radius: 16px;
+}
+</style>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -276,6 +291,32 @@
                             <a href="https://mine.kittytokenio.io/" class="theme-btn wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1.3s" target="_blank">Mine BNB Now</a>
                         </div>
                     </div>
+                     <div class="col-xl-7 col-lg-6">
+                     <h2>BNB mining will start </h2><br>
+                    <div id="myProgress">
+                        <div id="myBar"></div>
+                    </div>
+                  <script>
+                var i = 0;
+
+                 if (i == 0) {
+                   i = 1;
+                  var elem = document.getElementById("myBar");
+                     var width = 1;
+                    var id = setInterval(frame, 77760);
+                    function frame() {
+                    if (width >= 100) {
+                      clearInterval(id);
+                       i = 0;
+                           } else {
+                        width++;
+                   elem.style.width = width + "%";
+                          }
+                       }
+                     }
+                    </script>
+                      </div>
+
                     <div class="col-xl-5 col-lg-6">
                         <div class="hero-img">
                             <img  class="wow fadeInRight" data-wow-delay=".4s" data-wow-duration="1.3s" src="assets/img/hero/kitty-bnb-angel.svg" alt="">
