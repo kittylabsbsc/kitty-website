@@ -4,7 +4,7 @@ Author: UIdeck
 */
 
 /*===========================
-    01.COMMON css 
+    01.COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap");
 html {
@@ -184,19 +184,19 @@ p {
 }
 
 .gradient-1 {
-  background-image: linear-gradient(#6240c8 0%, #a145fe 100%);
+  background-image: linear-gradient(#1c152a 0%, #302249 100%);
 }
 
 .gradient-2 {
-  background-image: linear-gradient(#b548f2 0%, #d283fd 100%);
+  background-image: linear-gradient(#302842 0%, #453269 100%);
 }
 
 .gradient-3 {
-  background-image: linear-gradient(#e44e83 0%, #ffb8d1 100%);
+  background-image: linear-gradient(#302842 0%, #453269 100%);
 }
 
 .gradient-4 {
-  background-image: linear-gradient(#40b4f6 0%, #79cefd 100%);
+  background-image: linear-gradient(#302842 0%, #453269 100%);
 }
 
 .scroll-top {
@@ -1116,7 +1116,7 @@ p {
 }
 
 /*===========================
-    02.HEADER css 
+    02.HEADER css
 ===========================*/
 /*===== NAVBAR =====*/
 .navbar-area {
@@ -1727,7 +1727,7 @@ p {
 }
 
 /*===========================
-    08.Counterup css 
+    08.Counterup css
 ===========================*/
 .counterup-section {
   position: relative;
@@ -1780,7 +1780,7 @@ p {
   width: 211px;
   height: 211px;
   border-radius: 50%;
-  background: linear-gradient(#b548f2 0%, #d283fd 100%);
+  background: linear-gradient(#302842 0%, #453269 100%);
 }
 
 .counterup-section .counter-wrapper::before {
@@ -1843,7 +1843,7 @@ p {
 
 .subscribe-section .subscribe-wrapper {
   border-radius: 30px;
-  background: linear-gradient(to right bottom, #6240c8 0%, #a145fe 100%);
+  background: linear-gradient(to right bottom, #1c152a 0%, #302249 100%);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -1945,7 +1945,7 @@ p {
 }
 
 /*===========================
-    13.footer css 
+    13.footer css
 ===========================*/
 .footer {
   position: relative;
