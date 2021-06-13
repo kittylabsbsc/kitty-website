@@ -286,36 +286,36 @@
                 <div class="row align-items-center">
                     <div class="col-xl-7 col-lg-6">
                         <div class="hero-content-wrapper">
-                            <h1 class="wow fadeInDown mb-10" data-wow-delay=".4s" data-wow-duration="1.3s">BNB Reward</h1>
-                            <h3 class="wow fadeInLeft mb-15" data-wow-delay=".6s" data-wow-duration="1.3s">Mine BNB with #KITTY upto 1000 BNB. (30 days mining period).</h3>
+                          <h1 class="wow fadeInDown mb-10" data-wow-delay=".4s" data-wow-duration="1.3s">BNB Reward</h1>
+                            <h2 class="wow fadeInLeft mb-15">BNB Mining will Start </h2>
+                          <div class="wow fadeInLeft mb-15">
+                           <div id="myProgress">
+                               <div id="myBar"></div>
+                           </div>
+                               <script>
+                                 var i = 0;
+
+                                  if (i == 0) {
+                                    i = 1;
+                                   var elem = document.getElementById("myBar");
+                                      var width = 1;
+                                     var id = setInterval(frame, 77760);
+                                     function frame() {
+                                     if (width >= 100) {
+                                       clearInterval(id);
+                                        i = 0;
+                                            } else {
+                                         width++;
+                                    elem.style.width = width + "%";
+                                           }
+                                        }
+                                      }
+                               </script>
+                             </div>
+                            <h3 class="wow fadeInLeft mb-15" data-wow-delay=".6s" data-wow-duration="1.3s">Mine BNB with #KITTY upto 1000 BNB.<br> (30 days mining period).</h3>
                             <a href="https://mine.kittytokenio.io/" class="theme-btn wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1.3s" target="_blank">Mine BNB Now</a>
                         </div>
                     </div>
-                     <div class="col-xl-7 col-lg-6">
-                     <h2>BNB mining will start </h2><br>
-                    <div id="myProgress">
-                        <div id="myBar"></div>
-                    </div>
-                  <script>
-                var i = 0;
-
-                 if (i == 0) {
-                   i = 1;
-                  var elem = document.getElementById("myBar");
-                     var width = 1;
-                    var id = setInterval(frame, 77760);
-                    function frame() {
-                    if (width >= 100) {
-                      clearInterval(id);
-                       i = 0;
-                           } else {
-                        width++;
-                   elem.style.width = width + "%";
-                          }
-                       }
-                     }
-                    </script>
-                      </div>
 
                     <div class="col-xl-5 col-lg-6">
                         <div class="hero-img">
