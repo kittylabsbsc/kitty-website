@@ -170,12 +170,12 @@ p {
   padding: 17px 44px;
   font-size: 20px;
   border-radius: 50px;
-  color: #313450;
+  color: #fff;
   cursor: pointer;
   z-index: 5;
   transition: all .4s ease-in-out;
   border: none;
-  background: #fff;
+  background: #D339AF;
 }
 
 .theme-btn:hover, .theme-btn:focus {
