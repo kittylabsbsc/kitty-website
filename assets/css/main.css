@@ -1139,16 +1139,22 @@ p {
   padding: 16px 30px;
   background: #fff;
   box-shadow: 0 0 10px rgba(34, 34, 34, 0.05);
+  margin: 4 4 4 4;
+  padding: 4 4 4 4;
 }
 
 @media (max-width: 767px) {
   .sticky .navbar {
     padding: 5px 30px;
+    margin: 4 4 4 4;
+    padding: 4 4 4 4;
   }
 }
 
 .sticky .navbar .nav-item a {
   color: #313450;
+  margin: 4 4 4 4;
+  padding: 4 4 4 4;
 }
 
 .sticky .navbar-toggler .toggler-icon {
@@ -1232,27 +1238,30 @@ p {
 .navbar-nav .nav-item {
   margin-left: 40px;
   position: relative;
+
 }
 
 .navbar-nav .nav-item:first-child {
   margin-left: 0;
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .navbar-nav .nav-item {
     margin-left: 30px;
+
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-nav .nav-item {
-    margin: 0;
+
   }
 }
 
 @media (max-width: 767px) {
   .navbar-nav .nav-item {
-    margin: 2px;
+
   }
 }
 
@@ -1264,10 +1273,6 @@ p {
   position: relative;
   background-color: #190D16;
   border-radius: 50px;
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-left: 2px;
-  margin-right: 2px;
   width: 100%;
 }
 
@@ -1275,7 +1280,7 @@ p {
   .navbar-nav .nav-item a {
     color: #313450;
     display: block;
-    padding: 4px 0;
+
 
   }
 }
@@ -1284,13 +1289,13 @@ p {
   .navbar-nav .nav-item a {
     color: #313450;
     display: block;
-    padding: 4px 0;
 
   }
 }
 
 .navbar-nav .nav-item a.active, .navbar-nav .nav-item a:hover {
   color: #E44E83;
+
 }
 
 .navbar-nav .nav-item:hover .sub-menu {
@@ -1351,7 +1356,6 @@ p {
 
 .navbar-nav .nav-item .sub-menu li a {
   display: block;
-  padding: 8px 20px;
   color: #222;
 }
 
@@ -1374,9 +1378,9 @@ p {
     color: #222;
     font-size: 18px;
     border: 0;
-    width: 30px;
-    height: 30px;
-  }
+    width: 40px;
+    height: 40px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1389,14 +1393,14 @@ p {
     color: #222;
     font-size: 18px;
     border: 0;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 }
 
 .navbar-nav .sub-nav-toggler span {
-  width: 8px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   border-left: 1px solid #222;
   border-bottom: 1px solid #222;
   transform: rotate(-45deg);
